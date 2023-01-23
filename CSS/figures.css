@@ -1,0 +1,57 @@
+.figure1{
+    width  : 50px;
+    height : 50px;
+    background : green;
+}
+.figure2{
+    width  : 0;
+    height : 0;
+    border-left   : 25px solid transparent;
+    border-right  : 25px solid transparent;
+    border-bottom : 50px solid rgb(252, 6, 6);
+}
+.figure3{
+    width  : 0;
+    height : 0;
+    border-left  : 25px solid transparent;
+    border-right : 25px solid transparent;
+    border-top   : 50px solid rgb(234, 238, 9);
+}
+.figure4{
+    width  : 0;
+    height : 0;
+    border-top    : 25px solid transparent;
+    border-bottom : 25px solid transparent;
+    border-right  : 50px solid green;
+}
+.figure5{
+    width  : 0;
+    height : 0;
+    border-top    : 25px solid transparent;
+    border-bottom : 25px solid transparent;
+    border-left   : 50px solid red; 
+}
+.figure6{
+    width  : 0;
+    height : 0;
+    border-top   : 50px solid green;
+    border-right : 50px solid transparent;
+}
+.figure7{
+    width  : 100px;
+    height : 0;
+    border-top  : 50px solid green;
+    border-left : 20px solid transparent;
+    position : relative;
+}
+.figure7:after {
+    width  : 0;
+    height : 0;
+    content: '';
+    border-bottom : 50px solid green;
+    border-right  : 20px solid transparent;
+    border-left   : 20px solid transparent;
+    position : absolute;
+    top  : -50px;
+    right: -20px;
+}

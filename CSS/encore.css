@@ -1,0 +1,33 @@
+.tangram--encore .figure1 {
+    transform: rotate(0deg) translate(182px, 306px);
+    transition: transform 2s ease 0s;
+}
+
+.tangram--encore .figure2 {
+    transform: rotate(45deg) skew(-45deg) translate(0px, -257px);
+    transition: transform 2s ease 0s;
+}
+
+.tangram--encore .figure3 {
+    transform: rotate(-90deg) translate(0px, 182px);
+    transition: transform 2s;
+}
+
+.tangram--encore .figure4 {
+    transform: rotate(45deg) translate(127px, -384px);
+    transition: transform 2s ease 0s;
+}
+
+.tangram--encore .figure5 {
+    transform: rotate(-135deg) translate(-500px, -268px);
+    transition: transform 2s ease 0s;
+}
+
+.tangram--encore .figure6 {
+    transform: rotate(-45deg) translate(129px, 383px);
+    transition: transform 2s ease 0s;
+}
+.tangram--encore .figure7 {
+    transform: rotate(45deg) translate(2px, 25px);
+    transition: transform 2s ease 0s;
+}

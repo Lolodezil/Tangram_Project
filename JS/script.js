@@ -9,8 +9,6 @@ let alternativ_color = document.querySelector('.alternative');
 alternativ_color.addEventListener('click', ()=>{
     var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
     document.body.style.backgroundColor = randomColor;
-
-    
 })
 
 button_carre.addEventListener('click', ()=>{

@@ -1,29 +1,34 @@
-body {
-    display: block;
-    margin: 8px;
-}
 .tangram {
-    width: 512px;
-    height: 512px;
+    width:512px;
+    height:512px;
     position: relative;
-    margin: 150px auto;
+    margin:150px auto;
 }
+
+.tangram > div {
+    position: absolute;
+    transform-origin: 0 0;
+}
+
 .figure1 {
-    border-right: 256px solid transparent;
-    border-bottom: 256px solid transparent;
+    border-right:256px solid transparent;
+    border-bottom:256px solid transparent;
     border-top: 256px solid #99CC33;
-}
+}  
+
 .figure2 {
-    width: 256px;
-    height: 128px;
-    background: #6666CC;
-    transform: skew(-45deg);
+    width:256px;
+    height:128px;
+    background:#6666CC;
+    transform:skew(-45deg);
 }
+
 .figure3 {
     height: 181px;
     width: 181px;
     background: #FF6666;
 }
+
 .figure4 {
     width: 0;
     height: 0;
@@ -32,11 +37,13 @@ body {
     border-left-width: 128px;
     border-right-width: 128px;
 }
+
 .figure5 {
     border: 256px solid transparent;
     border-color: transparent #FFCC00 transparent transparent;
     border-width: 256px;
 }
+
 .figure6 {
     width: 0;
     height: 0;
@@ -45,8 +52,9 @@ body {
     border-bottom-width: 128px;
     border-top-width: 128px;
 }
+
 .figure7 {
-    border-right: 256px solid transparent;
-    border-left: 256px solid transparent;
-    border-bottom: 256px solid #33CC66;
+    border-right:256px solid transparent;
+    border-left:256px solid transparent;
+    border-bottom:256px solid #33CC66;
 }

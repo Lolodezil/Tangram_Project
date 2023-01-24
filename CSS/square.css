@@ -1,27 +1,28 @@
-.tangram > div {
-    position: absolute;
-    transform-origin: 0 0;
-}
 .tangram--basic .figure1 {
-    transform: rotate(0deg) translate(0px,0px);
+    transform: rotate(45) translate(0px,0px);
     transition: transform 2s;
 }
+
 .tangram--basic .figure2 {
-    transform: rotate(0deg) skew(-45deg) translate(256px,0px);
+    transform: rotate(0deg) skew(-45deg) translate(256px,-0px);
     transition: transform 2s;
 }
+
 .tangram--basic .figure3 {
     transform: rotate(45deg) translate(181px,0px);
     transition: transform 2s;
 }
+
 .tangram--basic .figure4 {
     transform: rotate(0deg) translate(128px,128px);
     transition: transform 2s;
 }
+
 .tangram--basic .figure5 {
     transform: rotate(0deg) translate(0px,0px);
     transition: transform 2s;
 }
+
 .tangram--basic .figure6 {
     transform: rotate(0deg) translate(0px,256px);
     transition: transform 2s;

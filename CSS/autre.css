@@ -1,0 +1,33 @@
+.tangram--autre .figure1 {
+    transform: rotate(135deg) translate(-119px, -120px);
+    transition: transform 2s ease 0s;
+}
+
+.tangram--autre .figure2 {
+    transform: rotate(0deg) skew(-45deg) translate(170px, 0px);
+    transition: transform 2s ease 0s;
+}
+
+.tangram--autre .figure3 {
+    transform: rotate(-90deg) translate(0px,182px);
+    transition: transform 2s;
+}
+
+.tangram--autre .figure4 {
+    transform: rotate(90deg) translate(-127px, -554px);
+    transition: transform 2s ease 0s;
+}
+
+.tangram--autre .figure5 {
+    transform: rotate(-90deg) translate(-640px, 42px);
+    transition: transform 2s ease 0s;
+}
+
+.tangram--autre .figure6 {
+    transform: rotate(0deg) translate(554px, -127px);
+    transition: transform 2s ease 0s;
+}
+.tangram--autre .figure7 {
+    transform: translate(42px, 385px);
+    transition: transform 2s ease 0s;
+}

@@ -14,25 +14,30 @@ alternativ_color.addEventListener('click', ()=>{
 })
 
 button_carre.addEventListener('click', ()=>{
-  tangram.classList.replace("tangram--tempo","tangram--carre");
-  tangram.classList.replace("tangram--autre","tangram--carre");
-  tangram.classList.replace("tangram--encore","tangram--carre");
+  tangram.classList.add("class", "tangram--carre");
+  tangram.classList.remove("tangram--tempo");
+  tangram.classList.remove("tangram--autre");
+  tangram.classList.remove("tangram--encore");
+
 })
 
 button_tempo.addEventListener('click', ()=>{
-    tangram.classList.replace("tangram--carre","tangram--tempo");
-    tangram.classList.replace("tangram--autre","tangram--tempo");
-    tangram.classList.replace("tangram--encore","tangram--tempo");
+    tangram.classList.add("class", "tangram--tempo");
+    tangram.classList.remove("tangram--carre");
+    tangram.classList.remove("tangram--autre");
+    tangram.classList.remove("tangram--encore");
 })
 
 button_autre.addEventListener('click', ()=>{
-    tangram.classList.replace("tangram--carre","tangram--autre");
-    tangram.classList.replace("tangram--tempo","tangram--autre");
-    tangram.classList.replace("tangram--encore","tangram--autre");
+    tangram.classList.add("class", "tangram--autre");
+    tangram.classList.remove("tangram--tempo");
+    tangram.classList.remove("tangram--carre");
+    tangram.classList.remove("tangram--encore");
 })
 
 button_encore.addEventListener('click', ()=>{
-    tangram.classList.replace("tangram--carre","tangram--encore");
-    tangram.classList.replace("tangram--tempo","tangram--encore");
-    tangram.classList.replace("tangram--autre","tangram--encore");
+    tangram.classList.add("class", "tangram--encore");
+    tangram.classList.remove("tangram--carre");
+    tangram.classList.remove("tangram--tempo");
+    tangram.classList.remove("tangram--autre");
 })
